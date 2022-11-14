@@ -1,0 +1,84 @@
+#columns {
+    display: block !important;
+}
+.ytd-search {
+    margin-left: auto;
+    margin-right: auto;
+}
+#player {
+    margin-top: 1% !important;
+}
+#player-container {
+    position: relative !important;
+}
+#container.ytd-player {
+    height: fit-content !important;
+    width: fit-content !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.html5-video-player.ytp-fullscreen {
+    min-height: min(100%,100vh) !important;
+    min-width: min(100%,100vw) !important;
+}
+.html5-main-video.video-stream {
+    position: relative !important;
+    object-fit: contain !important;
+    height: fit-content !important;
+    width: fit-content !important;
+    max-height: 100% !important;
+    max-width: 100% !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: 0px !important;
+    right: 0px !important;
+}
+.ytd-watch-flexy {
+    min-height: fit-content !important;
+    min-width: fit-content !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0px !important;
+}
+.ytp-player-content {
+    object-fit: contain !important;
+}
+.ytp-chapter-hover-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+}
+.ytp-timed-markers-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.ytp-chrome-bottom {
+    width: 98% !important;
+    left: 1% !important;
+    right: 1% !important;
+}
+.ytp-fullscreen-button::after {
+    width: 0px !important;
+    top: 0px !important;
+    bottom: 0px !important;
+}
+#below, #top-row, #bottom-row, .ytd-comments {
+    max-width: 1080px !important;
+    margin-left: auto !important;
+    margin-right: auto !important; 
+    text-align: -webkit-center;
+}
+.ytd-metadata-row-container-renderer {
+    display: none !important;
+}
+.ytd-watch-next-secondary-results-renderer {
+    display: none !important;
+}
+#chat {
+    display: none !important;
+}
+#playlist {
+    display: none !important;
+}

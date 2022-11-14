@@ -1,0 +1,61 @@
+.body {
+    height: auto;
+    width: auto;
+    background: #303030;
+    padding: 20px 20px;
+}
+dev {
+    display: block;
+}
+.card {
+    height: fit-content;
+    width: fit-content;
+    background: #aaaaaa;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 20px;
+}
+.checkbox {
+    min-height: 20px;
+    min-width: 20px;
+    border: 1px solid #1d5bad;
+    border-radius: 0;
+}
+.dropdown {
+    min-width: max-content;
+    min-height: max-content;
+    border: 1px solid #1d5bad;
+    border-radius: 0;
+}
+.button {
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.button-option {
+    color: #eee;
+    background: #515160;
+}
+.button-primary {
+    display: flex;
+    color: #ddd;
+    background: #1669b2;
+}
+.button-secondary {
+    color: #eee;
+    background: #515160;
+}
+.button-toggle {
+    height: 15px;
+    width: 36px;
+    border-radius: 15px;
+    top: 50%;
+    position: relative;
+    cursor: pointer;
+    background-color: #1669b2;
+    -webkit-transform: translate(0,-50%);
+    transform: translate(0,-50%);
+    -webkit-transition: all .08s cubic-bezier(0.4,0,1,1);
+    transition: all .08s cubic-bezier(0.4,0,1,1);
+}
