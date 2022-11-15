@@ -2,10 +2,17 @@
     height: auto;
     width: auto;
     background: #303030;
-    padding: 20px 20px;
+    margin: 20px 20px;
 }
-dev {
+div {
     display: block;
+}
+label {
+    display: inline;
+}
+.container {
+    display: flex;
+    width: fit-content;
 }
 .card {
     height: fit-content;
@@ -13,9 +20,11 @@ dev {
     background: #aaaaaa;
     margin-left: auto;
     margin-right: auto;
+    margin: 20px 20px;
     padding: 20px 20px;
 }
 .checkbox {
+    display: flex;
     min-height: 20px;
     min-width: 20px;
     border: 1px solid #1d5bad;
@@ -28,7 +37,7 @@ dev {
     border-radius: 0;
 }
 .button {
-    display: inline-block;
+    display: flex;
     padding: 5px 15px;
     margin: 5px;
     border-radius: 5px;

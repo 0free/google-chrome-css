@@ -1,6 +1,6 @@
 
-document.getElementById("save").addEventListener("click",saveOptions);
-document.getElementById("update").addEventListener("click",update);
+document.getElementById('save').addEventListener('click',saveOptions);
+document.getElementById('update').addEventListener('click',update);
 
 document.addEventListener('DOMContentLoaded',restoreOptions);
 
@@ -30,31 +30,40 @@ function restoreOptions() {
 }
 
 function update() {
-
   chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/manifest.xml",
-  });
-
-  chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/update.xml",
-  });
-
-  chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/options.css",
+      url: 'https://raw.githubusercontent.com/0free/google-chrome-css/1/manifest.xml',
+      filename: 'manifest.xml',
+      conflictAction: 'overwrite',
+      saveAs: false,
   });
   chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/options.html",
+      url: 'https://raw.githubusercontent.com/0free/google-chrome-css/1/options.css',
+      filename: 'options.css',
+      conflictAction: 'overwrite',
+      saveAs: false,
   });
   chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/options.js",
+      url: 'https://raw.githubusercontent.com/0free/google-chrome-css/1/options.html',
+      filename: 'options.html',
+      conflictAction: 'overwrite',
+      saveAs: false,
   });
-
   chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/outlook.css",
+      url: 'https://raw.githubusercontent.com/0free/google-chrome-css/1/options.js',
+      filename: 'options.js',
+      conflictAction: 'overwrite',
+      saveAs: false,
   });
-
   chrome.downloads.download({
-      url: "https://raw.githubusercontent.com/0free/google-chrome-css/1/youtube.css",
+      url: 'https://raw.githubusercontent.com/0free/google-chrome-css/1/outlook.css',
+      filename: 'outlook.css',
+      conflictAction: 'overwrite',
+      saveAs: false,
   });
-
+  chrome.downloads.download({
+      url: 'https://raw.githubusercontent.com/0free/google-chrome-css/1/youtube.css',
+      filename: 'youtube.css',
+      conflictAction: 'overwrite',
+      saveAs: false,
+  });
 }

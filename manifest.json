@@ -4,7 +4,16 @@
     "version": "0.0.1",
     "author": "Saif AlSubhi",
     "description": "google-chrome css",
-    "permissions": ["scripting","storage","unlimitedStorage","tabs","activeTab"],
+    "permissions": [
+        "contextMenus",
+        "downloads",
+        "webRequest",
+        "scripting",
+        "storage",
+        "unlimitedStorage",
+        "tabs",
+        "activeTab"
+    ],
     "host_permissions": ["https://*/"],
     "update_url": "https://raw.githubusercontent.com/0free/google-chrome-css/1/update.xml",
     "action": {
