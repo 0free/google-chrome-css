@@ -37,6 +37,10 @@
         {
             "css": ["outlook.css"],
             "matches": ["*://outlook.live.com/*"]
+        },
+        {
+            "css": ["twitch.css"],
+            "matches": ["*://*.twitch.tv/*"]
         }
     ]
 }
