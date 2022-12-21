@@ -1,0 +1,13 @@
+body {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: min(100vw,1500px) !important;
+}
+.Layout-main {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: min(100vw,1500px) !important;
+}
+.blob-code-inner {
+    white-space: pre-wrap !important;
+}

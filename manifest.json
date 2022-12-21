@@ -31,6 +31,10 @@
     },
     "content_scripts": [
         {
+            "js": ["init.js"],
+            "matches": ["*://*/*"]
+        },
+        {
             "css": ["youtube.css"],
             "matches": ["*://*.youtube.com/*"]
         },
@@ -41,6 +45,14 @@
         {
             "css": ["twitch.css"],
             "matches": ["*://*.twitch.tv/*"]
+        },
+        {
+            "css": ["github.css"],
+            "matches": ["*://*.github.com/*"]
+        },
+        {
+            "css": ["openwrt.css"],
+            "matches": ["*://*/*"]
         }
     ]
 }

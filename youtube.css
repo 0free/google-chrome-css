@@ -18,25 +18,36 @@ ytd-search {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.html5-video-player.ytp-fullscreen {
-    min-height: min(100vh,100vh) !important;
-    min-width: min(100vw,100vw) !important;
+.ytd-watch-flexy {
+    height: fit-content !important;
+    width: fit-content !important;
 }
-.html5-main-video.video-stream {
+.ytd-player,
+.html5-video-player.ytp-fullscreen,
+.html5-main-video,
+.ytd-shorts {
+    height: min(100vh,max(50vh,1080px)) !important;
+    width: min(100vw,max(50vw,1920px)) !important;
+}
+.html5-main-video {
     position: relative !important;
     object-fit: contain !important;
-    height: max(100vh,fit-content) !important;
-    width: max(100vw,fit-content) !important;
-    min-height: min(100vh,1080px) !important;
-    min-width: min(100vw,1920px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: 0px !important;
+    right: 0px !important;
+}
+.ytd-shorts {
+    position: relative !important;
+    object-fit: contain !important;
     top: auto !important;
     bottom: auto !important;
     left: 0px !important;
     right: 0px !important;
 }
 .ytd-watch-flexy {
-    min-height: fit-content !important;
-    min-width: fit-content !important;
     margin-top: auto !important;
     margin-bottom: auto !important;
     margin-left: auto !important;
@@ -46,11 +57,16 @@ ytd-search {
 .ytp-player-content {
     object-fit: contain !important;
 }
-.ytp-chapter-hover-container {
+.ytp-hover-progress,
+.ytp-scrubber-container {
+    left: 0 !important;
+    right: 0 !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.ytp-timed-markers-container {
+.ytp-chapter-hover-container,
+.ytp-timed-markers-container,
+.ytp-progress-bar-padding {
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -65,7 +81,7 @@ ytd-search {
     bottom: 0px !important;
 }
 #below, #top-row, #bottom-row, .ytd-comments {
-    max-width: 1080px !important;
+    width: 100% !important;
     margin-left: auto !important;
     margin-right: auto !important; 
     text-align: -webkit-center;
