@@ -3,6 +3,9 @@ body {
     margin-right: auto !important;
     max-width: min(100vw,1500px) !important;
 }
+.Layout {
+    display: flex !important;
+}
 .Layout-main {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -10,4 +13,9 @@ body {
 }
 .blob-code-inner {
     white-space: pre-wrap !important;
+}
+.container-xl {
+    max-width: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
 }
