@@ -31,12 +31,6 @@ ytd-search {
     position: relative !important;
 }
 #player.ytd-watch-flexy {
-    height: fit-content !important;
-    width: fit-content !important;
-    min-height: fit-content !important;
-    min-width: fit-content !important;
-    max-height: fit-content !important;
-    max-width: fit-content !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0px !important;
@@ -46,12 +40,17 @@ ytd-search {
     margin-right: auto !important;
 }
 #below.ytd-watch-flexy,
-.ytd-player,
-.html5-video-player.ytp-fullscreen,
-.html5-main-video,
-.ytd-shorts {
+.html5-main-video {
     height: min(100vh,max(50vh,1080px)) !important;
     width: min(100vw,max(50vw,1920px)) !important;
+}
+.ytd-shorts {
+    height: min(100vh,max(50vh,fit-content)) !important;
+    width: min(100vw,max(50vw,fit-content)) !important;
+}
+.html5-video-player.ytp-fullscreen {
+    height: max(100vh,fit-content) !important;
+    width: max(100vw,fit-content) !important;  
 }
 .html5-main-video {
     position: relative !important;
