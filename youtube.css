@@ -29,7 +29,9 @@ ytd-search {
 #player-container {
     position: relative !important;
 }
-#player.ytd-watch-flexy {
+.ytd-watch-flexy {
+    max-width: 100vw !important;
+    min-width: fit-content !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0px !important;
@@ -41,8 +43,8 @@ ytd-search {
     width: min(100vw,1920px) !important;
 }
 .html5-video-player.ytp-fullscreen {
-    height: max(100vh,fit-content) !important;
-    width: max(100vw,fit-content) !important;  
+    height: 100vh !important;
+    width: 100vw !important;
 }
 .html5-video-container {
     margin-left: auto !important;
@@ -102,9 +104,13 @@ ytd-search {
     margin-right: auto !important; 
     text-align: -webkit-center;
 }
+#bottom-row.ytd-watch-metadata {
+    display: flex !important;
+    justify-content: center !important;
+}
 .item.ytd-watch-metadata {
     width: fit-content;
-    margin: 0px !important;
+    margin: 5px !important;
 }
 .banner-visible-area {
     display: none !important;
