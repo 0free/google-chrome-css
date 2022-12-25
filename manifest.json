@@ -53,7 +53,7 @@
         {
             "css": ["openwrt.css"],
             "matches": ["*://*/*"],
-            "include_globs": ["198.162.*.*/"]
+            "include_globs": ["*://198.162.*.*/*"]
         }
     ]
 }

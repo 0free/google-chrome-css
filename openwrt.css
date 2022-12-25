@@ -1,4 +1,4 @@
 .container {
-    min-width: max(fit-content,50vw) !important;
-    max-width: min(1500px,90vw) !important;
+    min-width: max(max-content,50vw) !important;
+    max-width: min(1600px,90vw) !important;
 }

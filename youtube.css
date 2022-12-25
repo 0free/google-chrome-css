@@ -41,8 +41,8 @@ ytd-search {
 }
 #below.ytd-watch-flexy,
 .html5-main-video {
-    height: min(100vh,max(50vh,1080px)) !important;
-    width: min(100vw,max(50vw,1920px)) !important;
+    height: min(100vh,max(fit-content,1080px)) !important;
+    width: min(100vw,max(fit-content,1920px)) !important;
 }
 .ytd-shorts {
     height: min(100vh,max(50vh,fit-content)) !important;
@@ -52,6 +52,10 @@ ytd-search {
     height: max(100vh,fit-content) !important;
     width: max(100vw,fit-content) !important;  
 }
+.html5-video-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .html5-main-video {
     position: relative !important;
     object-fit: contain !important;
@@ -60,7 +64,6 @@ ytd-search {
     top: auto !important;
     bottom: auto !important;
     left: 0px !important;
-    right: 0px !important;
 }
 .ytd-shorts {
     position: relative !important;
