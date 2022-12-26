@@ -96,15 +96,14 @@ ytd-search {
     bottom: 0px !important;
 }
 #below.ytd-watch-flexy {
-    width: fit-content !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
 #below, #top-row, #bottom-row, .ytd-comments {
-    width: fit-content !important;
+    max-width: min(50vw,1920px) !important;
     margin-left: auto !important;
     margin-right: auto !important; 
-    text-align: -webkit-center;
+    text-align: center !important;
 }
 #bottom-row.ytd-watch-metadata {
     display: flex !important;
