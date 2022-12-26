@@ -2,7 +2,9 @@ ytd-search {
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0px !important;
-    overflow-y: hidden;
+}
+#page-manager.ytd-app {
+    overflow-y: hidden !important;
 }
 #columns {
     display: block !important;
@@ -36,7 +38,7 @@ ytd-search {
     margin-right: auto !important;
     padding: 0px !important;
 }
-#columns.ytd-watch-flexy,
+#player.ytd-watch-flexy,
 .html5-main-video,
 .ytd-shorts {
     height: min(100vh,1080px) !important;
