@@ -61,6 +61,10 @@ ytd-search {
     bottom: auto !important;
     left: 0px !important;
 }
+#shorts-container.ytd-shorts {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 .ytd-shorts {
     position: relative !important;
     object-fit: contain !important;
