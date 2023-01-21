@@ -1,16 +1,18 @@
 .video-ref {
     height: min(100vh,1080px) !important;
     width: min(100vw,1920px) !important;
-    margin-left: auto;
-    margin-right: auto;
-}
-.video-player__overlay {
-    height: min(100vh,1080px) !important;
-    width: min(100vw,1920px) !important;
-    margin-left: auto;
-    margin-right: auto;
 }
 .video-player {
     height: min(100vh,1080px) !important;
     width: min(100vw,1920px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.video-player__overlay {
+    height: min(100vh,1080px) !important;
+    width: min(100vw,1920px) !important;
+}
+.persistent-player {
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
