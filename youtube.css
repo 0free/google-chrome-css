@@ -9,16 +9,15 @@ ytd-search {
 #columns {
     display: block !important;
 }
-#columns.ytd-watch-flexy {
+#columns.ytd-watch-flexy,
+#primary.ytd-watch-flexy {
+    min-width: max(560vw,max-content) !important;
+    max-width: min(100vw,max-content) !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0px !important;
 }
 #player-container-inner.ytd-watch-flexy {
-    padding: 0px !important;
-}
-#primary.ytd-watch-flexy {
-    margin: 0px !important;
     padding: 0px !important;
 }
 #container.ytd-player {
@@ -35,22 +34,26 @@ ytd-search {
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0px !important;
+    height: fit-content !important;
+    width: fit-content !important;
 }
 .html5-video-player.ytp-fullscreen {
-    height: 100vh !important;
-    width: 100vw !important;
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    min-height: max(100vh,fit-content) !important;
+    min-width: max(100vw,fit-content) !important;
 }
 .html5-video-container {
-    margin-left: auto !important;
-    margin-right: auto !important;
+    min-height: min(100vh,fit-content) !important;
+    min-width: min(100vw,fit-content) !important;
+    max-height: min(100vh,1080px) !important;
+    max-width: min(100vw,1920px) !important;
 }
 .html5-main-video {
     position: relative !important;
     object-fit: contain !important;
-    top: auto !important;
-    bottom: auto !important;
-    height: fit-content !important;
-    width: min(100vh,1920px) !important;
+    top: 0 !important;
+    bottom: 0 !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
@@ -95,12 +98,15 @@ ytd-search {
 .ytp-player-content {
     object-fit: contain !important;
 }
-.ytp-hover-progress,
-.ytp-scrubber-container {
-    left: auto !important;
-    right: auto !important;
+.ytp-hover-progress {
     margin-left: auto !important;
     margin-right: auto !important;
+}
+.ytp-scrubber-container {
+    top: -5px !important;
+    left: 0px !important;
+    width: 100% !important;
+    margin: 0px !important;
 }
 .ytp-chapter-hover-container,
 .ytp-timed-markers-container,
@@ -108,7 +114,6 @@ ytd-search {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-
 .ytp-chrome-bottom {
     width: 98% !important;
     left: 1% !important;
