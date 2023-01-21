@@ -36,10 +36,6 @@ ytd-search {
     margin-right: auto !important;
     padding: 0px !important;
 }
-#player.ytd-watch-flexy {
-    height: max(fit-content,50vh,1080px) !important;
-    width: max(fit-content,50vw,1920px) !important;
-}
 .html5-video-player.ytp-fullscreen {
     height: 100vh !important;
     width: 100vw !important;
@@ -51,13 +47,36 @@ ytd-search {
 .html5-main-video {
     position: relative !important;
     object-fit: contain !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
     top: auto !important;
     bottom: auto !important;
-    left: 0px !important;
     height: fit-content !important;
-    width: fit-content !important;
+    width: min(100vh,1920px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.ytp-ce-top-left-quad {
+    top: 3% !important;
+    left: 2% !important;
+    right: auto !important;
+    bottom: auto !important;
+}
+.ytp-ce-top-right-quad {
+    top: 3% !important;
+    left: auto !important;
+    right: 2% !important;
+    bottom: auto !important;
+}
+.ytp-ce-bottom-left-quad {
+    top: auto !important;
+    left: 2% !important;
+    right: auto !important;
+    bottom: 10% !important;
+}
+.ytp-ce-bottom-right-quad {
+    top: auto !important;
+    left: auto !important;
+    right: 2% !important;
+    bottom: 10% !important;
 }
 #shorts-container.ytd-shorts {
     margin-left: auto !important;
@@ -70,16 +89,16 @@ ytd-search {
     bottom: auto !important;
     left: 0px !important;
     right: 0px !important;
-    height: min(100vh,1080px) !important;
-    width: min(100vw,1920px) !important;
+    height: min(100vh,1080px,fit-content) !important;
+    width: min(100vw,1920px,fit-content) !important;
 }
 .ytp-player-content {
     object-fit: contain !important;
 }
 .ytp-hover-progress,
 .ytp-scrubber-container {
-    left: 0 !important;
-    right: 0 !important;
+    left: auto !important;
+    right: auto !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
