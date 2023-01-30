@@ -43,7 +43,8 @@ ytd-search {
     min-height: max(100vh,fit-content) !important;
     min-width: max(100vw,fit-content) !important;
 }
-.html5-video-container {
+.html5-video-container,
+.html5-main-video {
     min-height: min(100vh,fit-content) !important;
     min-width: min(100vw,fit-content) !important;
     max-height: min(100vh,1080px) !important;
@@ -102,22 +103,43 @@ ytd-search {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.ytp-scrubber-container {
-    top: -5px !important;
-    left: 0px !important;
-    width: 100% !important;
-    margin: 0px !important;
+.ytp-chrome-bottom {
+    left: 1% !important;
+    right: 1% !important;
+    width: 98% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
 }
-.ytp-chapter-hover-container,
-.ytp-timed-markers-container,
+.ytp-progress-bar {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.ytp-progress-bar-container {
+    height: 5px !important;
+}
 .ytp-progress-bar-padding {
     margin-left: auto !important;
     margin-right: auto !important;
 }
-.ytp-chrome-bottom {
-    width: 98% !important;
-    left: 1% !important;
-    right: 1% !important;
+.ytp-heat-map-container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.ytp-chapters-container {
+    left: 0px !important;
+    right: 0px !important;
+    width: 102% !important;
+}
+.ytp-scrubber-container {
+    transform: translateX(auto) !important;
+    top: -5px !important;
+    left: 0% !important;
+    right: 0% !important;
+    width: 100% !important;
+}
+.ytp-play-button::before {
+    left: 0px !important;
+    width: 0px !important;
 }
 .ytp-fullscreen-button::after {
     width: 0px !important;
