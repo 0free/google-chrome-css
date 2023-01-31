@@ -11,8 +11,8 @@ ytd-search {
 }
 #columns.ytd-watch-flexy,
 #primary.ytd-watch-flexy {
-    min-width: max(560vw,max-content) !important;
-    max-width: min(100vw,max-content) !important;
+    min-width: max-content !important;
+    max-width: max-content !important;
     margin-left: auto !important;
     margin-right: auto !important;
     padding: 0px !important;
@@ -47,8 +47,8 @@ ytd-search {
 .html5-main-video {
     min-height: min(100vh,fit-content) !important;
     min-width: min(100vw,fit-content) !important;
-    max-height: min(100vh,1080px) !important;
-    max-width: min(100vw,1920px) !important;
+    height: min(100vh,1080px) !important;
+    width: min(100vw,1920px) !important;
 }
 .html5-main-video {
     position: relative !important;
@@ -151,7 +151,7 @@ ytd-search {
     margin-right: auto !important;
 }
 #below, #top-row, #bottom-row, .ytd-comments {
-    max-width: min(50vw,1920px) !important;
+    max-width: min(70vw,1920px) !important;
     margin-left: auto !important;
     margin-right: auto !important; 
     text-align: center !important;
