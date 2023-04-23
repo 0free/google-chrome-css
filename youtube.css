@@ -40,15 +40,19 @@ ytd-search {
 .html5-video-player.ytp-fullscreen {
     margin-top: auto !important;
     margin-bottom: auto !important;
-    min-height: max(100vh,fit-content) !important;
-    min-width: max(100vw,fit-content) !important;
+    height: fit-content !important;
+    width: fit-content !important;
+    max-height: 100vh !important;
+    max-width: 100vw !important;
 }
 .html5-video-container,
 .html5-main-video {
-    min-height: min(100vh,fit-content) !important;
-    min-width: min(100vw,fit-content) !important;
-    height: min(100vh,1080px) !important;
-    width: min(100vw,1920px) !important;
+    min-height: fit-content !important;
+    min-width: fit-content !important;
+    height: 1080px !important;
+    width: 1920px !important;
+    max-height: 100vh !important;
+    max-width: 100vw !important;
 }
 .html5-main-video {
     position: relative !important;
@@ -93,8 +97,8 @@ ytd-search {
     bottom: auto !important;
     left: 0px !important;
     right: 0px !important;
-    height: min(100vh,1080px,fit-content) !important;
-    width: min(100vw,1920px,fit-content) !important;
+    height: min(100vh,1920px,fit-content) !important;
+    width: min(100vw,1080px,fit-content) !important;
 }
 .ytp-player-content {
     object-fit: contain !important;
@@ -151,7 +155,7 @@ ytd-search {
     margin-right: auto !important;
 }
 #below, #top-row, #bottom-row, .ytd-comments {
-    max-width: min(70vw,1920px) !important;
+    max-width: min(80vw,1000px) !important;
     margin-left: auto !important;
     margin-right: auto !important; 
     text-align: center !important;
